@@ -54,10 +54,10 @@ public class SimpleCalculator {
 
                     // When user clicks on "=". Solve the maths
                     if (value == "="){
-                        int firstNum = Integer.parseInt(value1);     // convert string to integer
-                        int secondNum = Integer.parseInt(value2);    // convert string to integer
-                        int addedResult = firstNum + secondNum;      // add both firstnumber and lastnumber
-                        int subtractedResult = firstNum - secondNum; // subtract both firstnumber and lastnumber
+                        float firstNum = Integer.parseInt(value1);     // convert string to integer
+                        float secondNum = Integer.parseInt(value2);    // convert string to integer
+                        float addedResult = firstNum + secondNum;      // add both firstnumber and lastnumber
+                        float subtractedResult = firstNum - secondNum; // subtract both firstnumber and lastnumber
 
                         // Check what operator was clicked on
                         // if operator is "+". print addedResult(in line 59)
